@@ -5,7 +5,7 @@ import urllib;
 import datetime;
 import MySQLdb;
 
-reg=r'<a.*href="(/question/\d{8})/answer.*">'; #正则
+reg=r'<a.*href="(/question/\d{8})/answer.*">'; #正则表达式
 quesre=re.compile(reg);
 
 def getHtml(url):
