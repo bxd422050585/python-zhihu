@@ -5,7 +5,7 @@ import urllib;
 import datetime;
 import MySQLdb;
 
-reg=r'<a class="author-link".*>(.*)</a>'; #正则表达式
+reg=r'<a class="author-link".*>(.*)</a>'; #正则
 namere=re.compile(reg);
 
 def getHtml(url):
